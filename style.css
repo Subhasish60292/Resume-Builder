@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+  }
+
+body
+  {
+    background-image: url(5.jpg);
+   background-size: cover;
+   height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family:  montserrat;
+    align-items: center;
+  }
+
+  .menu-bar
+  {
+    background-color:rgb(41 155 139);
+    text-align: right;
+  }
+  
+  .menu-bar ul
+  {
+    display: inline-flex;
+    list-style: none;
+    color: #fff; 
+    margin-right: 40px;
+  }
+  .menu-bar ul li 
+  {
+   
+    width: 100px;
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .menu-bar ul li a
+  {
+    text-decoration: none;
+    /* text-align: center; */
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+
+  }
+  .menu-bar ul li:hover
+  {
+    background-color: #0dab99;
+    border-radius: 3px;
+    text-align: center;
+  }
+
+  .members
+  {
+    font-size: 20px;
+    padding-top: 5cm;
+    margin-left: 70vh;
+  }
+  .menu-bar ul li:hover .members
+  {
+    display: block;
+    position: absolute;
+    background-color: #0dab99;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+    .menu-bar ul li:hover .members ul
+    {
+   display: block;
+   margin: 10px;
+    }
+    .menu-bar ul li:hover .members ul li
+    {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted white;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+        .menu-bar ul li:hover .members ul li:last-child
+        {
+            border-bottom: none;
+        }
+
+        h1
+        {
+            font-size: 10vh;
+            text-align: center;
+            padding-top: 6cm;
+        }
+
+        #text
+        {
+            font-size: 10vh;
+            text-align: center;
+            padding-top: 6cm;
+
+        }
+        #dis{
+            border: 1px solid black;
+            align-items: center;
+            padding: 5px;
+
+        }
+
+        #description
+        {
+            font-size: 4vh;
+            border: 1px solid black;
+            margin: auto;
+            max-width: 100vh;
+    
+          
+
+        }
+      
+    .text
+    {
+        font-size: 4vh;
+        margin-left: 40vh;
+        width: 111vh;
+    }
+    .moretext
+    {
+        display: none;
+    }
+    .read-more-btn
+    {
+        margin-top: 7px;
+      padding: 15px 60px;
+      margin-left: 75vh;
+      background-color: #d051c8;
+      border-radius: 1vh;
+      outline: none;
+      font-size: 30px;
+      cursor: pointer;
+    }
+    .text.show-more .moretext{
+        display: inline;
+
+    }
+    .text.show-more .dots
+    {
+        display: none;
+    }
+    .cv
+    {
+        font-size: 19px;
+        background-color: #d051c8;
+        border-radius: 1vh;
+    }
+    .cv:hover
+    {
+        font-size: 20px;
+        background-color: #d051c8;
+    }
+    .contact
+    {
+        font-size: 20px;
+        padding-top: 5cm;
+        margin-left: 80vh;
+    }
