@@ -55,9 +55,8 @@ body
 
   .members
   {
-    font-size: 20px;
     padding-top: 5cm;
-    margin-left: 70vh;
+    margin-left: 60vh;
   }
   .menu-bar ul li:hover .members
   {
@@ -146,6 +145,15 @@ body
     .text.show-more .dots
     {
         display: none;
+    }
+    table,th,td
+    {
+        font-size: 25px;
+        width: 80vh;
+        height: 5vh;
+        text-align: center;
+        border: 2px solid black;
+        border-collapse: collapse;
     }
     .cv
     {
