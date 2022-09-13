@@ -6,7 +6,7 @@
 
 body
   {
-    background-image: url(5.jpg);
+    background-image: url(background-image.jpg);
    background-size: cover;
    height: 100vh;
     background-position: center;
@@ -27,14 +27,14 @@ body
     display: inline-flex;
     list-style: none;
     color: #fff; 
-    margin-right: 40px;
+    margin-right: 5vh;
   }
   .menu-bar ul li 
   {
    
-    width: 100px;
-    margin: 10px;
-    padding: 15px;
+    width: 12.5vh;
+    margin: 1.25vh;
+    padding: 2vh;
   }
 
   .menu-bar ul li a
@@ -49,7 +49,7 @@ body
   .menu-bar ul li:hover
   {
     background-color: #0dab99;
-    border-radius: 3px;
+    border-radius: 0.5vh;
     text-align: center;
   }
 
@@ -63,19 +63,19 @@ body
     display: block;
     position: absolute;
     background-color: #0dab99;
-    margin-top: 15px;
-    margin-left: -15px;
+    margin-top: 2vh;
+    margin-left: -2vh;
   }
     .menu-bar ul li:hover .members ul
     {
    display: block;
-   margin: 10px;
+   margin: 1.25vh;
     }
     .menu-bar ul li:hover .members ul li
     {
-        width: 150px;
-        padding: 10px;
-        border-bottom: 1px dotted white;
+        width: 20vh;
+        padding: 1.25vh;
+        border-bottom: 0.125vh dotted white;
         background: transparent;
         border-radius: 0;
         text-align: left;
@@ -100,9 +100,9 @@ body
 
         }
         #dis{
-            border: 1px solid black;
+            border: 0.125vh solid black;
             align-items: center;
-            padding: 5px;
+            padding: 0.625vh;
 
         }
 
@@ -129,13 +129,13 @@ body
     }
     .read-more-btn
     {
-        margin-top: 7px;
-      padding: 15px 60px;
+        margin-top: 0.875vh;
+      padding: 2vh 7.5vh;
       margin-left: 75vh;
       background-color: #d051c8;
       border-radius: 1vh;
       outline: none;
-      font-size: 30px;
+      font-size: 3.75vh;
       cursor: pointer;
     }
     .text.show-more .moretext{
@@ -148,27 +148,27 @@ body
     }
     table,th,td
     {
-        font-size: 25px;
+        font-size: 3.3vh;
         width: 80vh;
         height: 5vh;
         text-align: center;
-        border: 2px solid black;
+        border: 0.25vh solid black;
         border-collapse: collapse;
     }
     .cv
     {
-        font-size: 19px;
+        font-size: 2.4vh;
         background-color: #d051c8;
         border-radius: 1vh;
     }
     .cv:hover
     {
-        font-size: 20px;
+        font-size: 2.5vh;
         background-color: #d051c8;
     }
     .contact
     {
-        font-size: 20px;
-        padding-top: 5cm;
+        font-size: 2.5vh;
+        padding-top: 4cm;
         margin-left: 80vh;
     }
