@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ach.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Extracurricular Activities</title>
+   </head>
+<body>
+  <div class="container">
+    <div class="title"><b>Extracurricular Activities</b></div>
+    <div class="content">
+      <form action="#">
+        <div id="addmore" class="user-details">
+          <div id = "adde" class="input-box">
+            <span class="details">Extracurricular Activities :</span>
+            <input type="textarea" placeholder="Add your extracurricular activities ........." required>
+          </div>
+        </div>
+        
+        <div id="add">
+          <input type="button" value="Add More">
+        </div>
+        <div class="button">
+
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id = "nextpre">
+
+    <div id="prev" class="b">
+      <a href="skill.html">Prev</a>
+    </div>
+    <div id="next" class="b">
+      <a href="project.html">Next</a>
+      </div>
+  </div>
+
+   <script>
+
+    let adde = document.getElementById("adde");
+    let addmore = document.getElementById("addmore");
+    let add = document.getElementById("add");
+
+    html = addmore.innerHTML;
+
+    add.addEventListener("click", (e)=>{
+
+      addmore.innerHTML = addmore.innerHTML + html;
+      console.log(addmore);
+    });
+
+
+  </script>
+
+</body>
+</html>
